@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+    <meta charset="utf-8" />
+    <title> Order </title> 
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        article
+        {
+            width: 100%;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <nav>         
+            <div style="float: left; margin-left: 80px; margin-top: 5px;padding-top: 4px;">  
+                <a href="index.html"><img src="images/icon.png" width="300" height="50" alt=""/></a>
+            </div>
+            <div style="float:right; margin-right: 40px;padding-top: 5px;">
+                <ul>
+                    <li> <a href="home.html"> Home </a></li>
+                    <li> <a href="about.html"> About us </a></li>
+                    <li> <a href="products.html"> Products </a></li>
+                    <li> <a href="merchandise.html"> Merchandise </a></li>
+                    <li> <a href="contact.html"> Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr/>
+        <div id="banner">
+            <img src="images/1_1920.jpg" width="100%" height="700" alt=""/> 
+        </div>
+    </header>
+
+    <main>
+
+        <article id="orderid">
+            <div class="artikujt">
+
+                <form class="forma" method="post" action="">
+                    <fieldset>
+                        <legend> Input your data </legend>
+                        <p>
+                            <label> First name: </label>
+                            <input type="text" name="firstname" placeholder="Enter your first name..."/>
+                        </p>
+                        <p>
+                            <label> Surname: </label>
+                            <input type="text" name="surname" placeholder="Enter your surname..."/>
+                        </p>
+                        <p>
+                            <label> Date of birth: </label>
+                            <input type="date" name="birthdate" />
+                        </p>
+                        <hr />
+                        <p>
+                            <label> Product: </label>
+                            <select name="product">
+                                <option> ----------------------------------------------- </option>
+                                <option value="Laptop ASUS Transformer 3 Pro "> Laptop ASUS Transformer 3 Pro </option>
+                                <option value="Notebook Dell XPS "> Notebook Dell XPS  </option>
+                                <option value="Apple MacBook 12 "> Apple MacBook 12 </option>
+                                <option value="Notebook Acer Extensa 15 "> Notebook Acer Extensa 15 </option>
+                                <option value="Laptop Lenovo IdeaPad "> Laptop Lenovo IdeaPad </option>
+                                <option value="Laptop Fujitsu Lifebook "> Laptop Fujitsu Lifebook  </option>
+                                <option value="Laptop HP ZBook "> Laptop HP ZBook  </option>
+                                <option value="Laptop ASUS UX390UA-GS031R "> Laptop ASUS UX390UA-GS031R </option>
+                                <option> ----------------------------------------------- </option>
+                                <option value="ASUS ZenFone 3 Zoom "> ASUS ZenFone 3 Zoom  </option>
+                                <option value="Google Pixel 2 "> Google Pixel 2  </option>
+                                <option value="Iphone X "> Iphone X  </option>
+                                <option value="LG V30 "> LG V30 </option>
+                                <option value="OnePlus 5T "> OnePlus 5T </option>
+                                <option value="Samsung Galaxy S8+ "> Samsung Galaxy S8+ </option>
+                                <option value="Samsung Galaxy Note 8 "> Samsung Galaxy Note 8 </option>
+                                <option value="Sony Xperia XZ1 "> Sony Xperia XZ1  </option>
+                                <option> ----------------------------------------------- </option>
+                                <option value="HP Elite 8000 "> HP Elite 8000 </option>
+                                <option value="Dell OptiPlex 990 "> Dell OptiPlex 990 </option>
+                                <option value="Acer Veriton X "> Acer Veriton X </option>
+                                <option value="Lenovo 310S "> Lenovo 310S </option>
+                                <option value="HP Pavilion "> HP Pavilion  </option>
+                                <option value="Premium Lenovo IdeaCentre Y900 "> Premium Lenovo IdeaCentre Y900 </option>
+                                <option value="Dell Inspiron 5675 AMD "> Dell Inspiron 5675 AMD </option>
+                                <option value="Lenovo H50 Premium "> Lenovo H50 Premium </option>
+                                <option> ----------------------------------------------- </option>
+                                <option value="Samsung Galaxty E Lite 7 "> Samsung Galaxty E Lite 7 </option>
+                                <option value="Fire HD 8 "> Fire HD 8 </option>
+                                <option value="BlackBerry Playbook "> BlackBerry Playbook  </option>
+                                <option value="Acer Iconia "> Acer Iconia </option>
+                                <option value="NeuTab 7 "> NeuTab 7  </option>
+                                <option value="Yuntab Android "> Yuntab Android</option>
+                                <option value="Samsung Galaxy A "> Samsung Galaxy A  </option>
+                                <option value="Dragon Touch X10 "> Dragon Touch X10 </option>
+                                <option> ----------------------------------------------- </option>
+                                <option value="Hoodie for females "> Hoodie for females  </option>
+                                <option value="Crewneck Sweatshirt for Males "> Crewneck Sweatshirt for Males </option>
+                                <option value="Sweatshirt for Males "> Sweatshirt for Males </option>
+                                <option value="Hoodie for Males "> Hoodie for Males  </option>
+                                <option value="T-shirt for Males "> T-shirt for Males  </option>
+                                <option value="T-shirt for Females "> T-shirt for Females  </option>
+                                <option value="Zipper for Males "> Zipper for Males  </option>
+                                <option value="Full Zip Sweatshirt for Males"> Full Zip Sweatshirt for Males </option>
+                            </select>
+                        </p>
+                        <p>
+                            <label> Color: </label> 
+                            <input type="radio" name="color" value="" /> Black  
+                            <svg width="30" height="20">
+                                <circle cx="10" cy="10" r="10" fill="black"/>
+                            </svg>
+                            <input type="radio" name="color" value="" /> Midnight Blue
+                            <svg width="30" height="10">
+                                    <rect width="30" height="10" fill="midnightblue"/>
+                            </svg>
+                            <input type="radio" name="color" value="" /> Matte Gray
+                            <svg width="30" height="20">
+                                <circle cx="10" cy="10" r="10" fill="gray"/>
+                            </svg>
+                            <input type="radio" name="color" value="" /> Sparkling White
+                            <svg width="30" height="10" style="border: 1px solid black;">
+                                    <rect width="30" height="10" fill="white"/>
+                            </svg>
+                        </p>
+                        <hr />
+                        <p>
+                            <label> Country: </label>
+                            <input type="text" name="country" list="countries" placeholder="Select a country..."/>
+                            <datalist id="countries" > 
+                                <option value="USA"> United States </option> <option value="GRB"> United Kingdom </option> <option value="FRA"> France </option> <option value="SPA"> Spain </option>
+                                <option value="KOS"> Kosovo </option><option value="ALB"> Albania </option><option value="GER"> Germany </option><option value="JAP"> Japan </option>
+                                <option value="ITA"> Italy </option><option value="POR"> Portugal </option><option value="AUS"> Australia </option><option value="BRA"> Brazil </option> 
+                                <option> Other </option>
+                            </datalist>
+                        </p>
+                        <p>
+                            <label> Address: </label>
+                            <input type="text" placeholder="Enter your address..." size="60"/>
+                            <span style="font-style: italic;font-size: 0.8em;"> (Please be as specific as you can) </span>
+                        </p>
+                        <hr />
+                        <p>
+                            <label> Date of order: </label> 
+                            <input type="date" name="date" />
+                            <span style="font-style: italic;font-size: 0.8em;"> (Please note that the item will arrive 4 to 5 days after the entered date of order) </span>
+                        </p>
+                        <p>
+                            <label> Method of payment:  </label> 
+                            <input type="radio" name="payment" value="creditcard"/> Credit Card
+                            <input type="radio" name="payment" value="paypal"/> PayPal
+                            <input type="radio" name="payment" value="coupon"/> Coupon
+                        </p>
+                        <p>
+                            <label> Type: </label>
+                            <select name ="type">
+                                <option value="Visa"> Visa </option> 
+                                <option value="MasterCard" > MasterCard </option> 
+                                <option value="JCB"> JCB </option> 
+                                <option value="Diners Club"> Diners Club </option> 
+                                <option value="American Express"> American Express </option>
+                                <option value="Western Union"> Western Union </option> 
+                            </select>
+                        </p>
+                        <p>
+                            <label> Card Number: </label>
+                            <input type="text" name="cardnumber" size="30"/>
+                        </p>
+                        <p>
+                            <label> Valid Until: </label>
+                            <select name="monthvalid">
+                                <option value="1"> 1 </option value="2"> <option> 2 </option > <option value="3"> 3 </option> <option value="4"> 4 </option>
+                                <option value="5"> 5 </option> <option value="6"> 6 </option> <option value="7"> 7 </option> <option value="8"> 8 </option>
+                                <option value="9"> 9 </option> <option value="10"> 10 </option> <option value="11"> 11 </option> <option value="12"> 12 </option> 
+                            </select>
+                            <select name="yearvalid">
+                                <option value="2017"> 2017 </option><option value="2018"> 2018 </option><option value="2019 "> 2019 </option><option value="2020"> 2020 </option><option value="2021"> 2021 </option>
+                                <option value="2022"> 2022 </option><option value="2023"> 2023 </option><option value="2024"> 2024 </option><option value="2025"> 2025 </option><option value="2026"> 2026 </option>
+                            </select>
+                            <br /><br />
+                            
+                            <label> CVC: </label> 
+                            <input type="text" name="cvc"/>
+                        </p>
+                        <p>
+                            <label> Do you accept all the Terms and Conditions? </label>
+                            <input type="checkbox" name="accept" />                             
+                        </p>
+                        <p align="center">
+                            <input type="submit"/>
+                            <input type="reset"/>
+                        </p>
+                    </fieldset>
+                </form>
+
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <div>
+            <div id="footer" >     
+                <div id="social">
+                    <h2>Follow Us</h2>            
+                        <a href="https://www.facebook.com" target="_blank"><img src="images/socialmedia/modern_01.png" width="48" height="46" alt="Facebook logo"/></a>
+                        <a href="https://www.twitter.com" target="_blank"><img src="images/socialmedia/modern_02.png" width="47" height="46" alt="Twitter logo"/></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="images/socialmedia/modern_04.png" width="48" height="46" alt="Instagram logo"/></a>
+                        <a href="https://www.linkedin.com" target="_blank"><img src="images/socialmedia/modern_07.png" width="49" height="46" alt="LinkedIn logo"/></a>            
+                </div>
+                <div id="contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: contact@sparta.com</p>
+                    <p>Phone number: +377 44 007 007</p>
+                    <p>Address: R.T.S. Fakulteti Teknik</p>
+                    <p>Prishtina, Kosovo</p>
+                </div>
+            </div>
+                
+            <div id="copyright" style="margin-top: 50px;">
+                <p>© 2017 Sparta - Designed by Us</p>            
+            </div>
+        </div>     
+    
+    </footer>
+    
+
+</body>
+
+</html>

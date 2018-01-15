@@ -1,0 +1,2 @@
+1. Origjinali
+2. Horizontal 180 "maintain aspect ratio"
